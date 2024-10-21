@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- Initialiation  -->
+    <head> 
+        <!-- CSS/JS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono&display=swap" rel="stylesheet" crossorigin="anonymous">
+
+<!-- Content -->
+    </head>
+    <body class="desiredFont">
+        <!-- Jumbotron and Top Nav Page -->
+        <!-- FIX LINK STRETCH ISSUE (W/ Grids/Columns Maybe?) -->
+        <div class="container py-4">
+            <header class="pb-3 mb-4 border-bottom"> 
+              <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+                <span class="fs-4">AP-Gram <br> For All the AP Students</span>
+              </a>
+              <a href="{{ url_for('login') }}" class="d-flex justify-content-end text-decoration-none text-body-emphasis">Login
+                <span class="fs-4"></span>
+              </a>
+            </header>
+        
+            <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+              <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Helping YOU Pass Your exam</h1>
+                <p class="col-md-8 fs-4">Login to see resources for YOUR AP Classroom</p>
+              </div>
+              <!-- FIX IT SO THAT IT'S A LINK THAT CALLS BACKEND, THIS IS ALL FRONT-END SO NOT SAFE -->
+                <button onclick="location.href='/membership'" class="btn btn-secondary" type="button">Get Access</button>
+            </div>
+
+        </div>
+<!-- Content -->
+{% block content %}
+{% endblock %}
+
+<!-- Footer -->
+        <div class="bg-body-tertiary wrap" id="footer">
+            <a href="{{ url_for('about') }}" class="text-decoration-none text-body-emphasis">About This Webpage</a>
+            <a class="text-decoration-none text-body-emphasis" href="{{ url_for('index')}}">Home</a>
+        </div>
+    </body>
+</html>
