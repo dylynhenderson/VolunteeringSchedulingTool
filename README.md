@@ -17,6 +17,7 @@ The calander can be accessed on the homepage and you can view all weekly and one
 ## **Our Collaborators**
 ### **Admins**
 Dylan Henderson
+
 David Matos
 ### **Non-profits**
 
