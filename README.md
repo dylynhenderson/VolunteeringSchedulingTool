@@ -8,12 +8,15 @@ We want to create a tool for students and those wishing to make a change in our 
 > [!IMPORTANT]
 > The website is still in development.
 
-Enter the days and time your available throughout your typical work week. The website will match you with available volunteer oppurtunites around town and guide you to get in contact with the organizers. The website will tell you about weekly oppurtunites and any single-time oppurtunites featured on the website.
+Use the scheduler by entering the days and time your available throughout your typical work week. The website will match you with available volunteer oppurtunites around town and guide you to get in contact with the organizers. The website will tell you about weekly oppurtunites and any single-time oppurtunites featured on the website.
+
+The calander can be accessed on the homepage and you can view all weekly and one-time volunteer oppurtunites in one place to help get an idea of what oppurtunites there are.
 
 > [!NOTE]
-> Single-time volunteer oppurtunites will only show on the website if one of our collaborators submitted it into the website's system.
+> Single-time volunteer oppurtunites will only be available if manually entered into the system.
 ## **Our Collaborators**
-
+### **Admins**
+@dylynhenderson
 ### **Non-profits**
 
 ### **Student Groups**
