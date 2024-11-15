@@ -16,7 +16,8 @@ The calander can be accessed on the homepage and you can view all weekly and one
 > Single-time volunteer oppurtunites will only be available if manually entered into the system.
 ## **Our Collaborators**
 ### **Admins**
-@dylynhenderson
+Dylan Henderson
+David Matos
 ### **Non-profits**
 
 ### **Student Groups**
