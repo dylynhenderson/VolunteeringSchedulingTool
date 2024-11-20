@@ -23,9 +23,9 @@
 
 
 }
-
+/* Font for majority of text */
 .desiredFont {
-    font-family: 'Merriweather', serif;
+    font-family: 'sans-serif', Helvetica;
 }
 
 #footer {
