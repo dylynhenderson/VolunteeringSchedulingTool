@@ -11,10 +11,6 @@ def index():
 def login():
     return render_template('login.html')
 
-@app.route('/membership')
-def membership():
-    return render_template('membership.html')
-
 @app.route('/about')
 def about():
     return render_template('about.html')
